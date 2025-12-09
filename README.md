@@ -14,15 +14,15 @@ churn_status
 Each worksheet was cleaned separately to ensure accuracy, consistency, and data integrity before further analysis.
 ## Data Cleaning Process
 The following structured data cleaning steps were applied to every worksheet in the dataset:
-Load the dataset into pandas using multi-sheet Excel handling
-Perform basic inspection using .info() and .head()
-Remove duplicated records
-Correct and standardise data types (especially date and numerical fields)
-Handle missing values appropriately based on business meaning
-Standardise categorical values (for example: gender, marital status, churn labels)
-Check categorical fields for consistency and unexpected values
-Perform feature engineering for analysis (such as recency, frequency, and derived indicators)
-Save the fully cleaned dataset into new Excel output files 
+1. Load the dataset into pandas using multi-sheet Excel handling
+2. Perform basic inspection using .info() and .head()
+3. Remove duplicated records
+4. Correct and standardise data types (especially date and numerical fields)
+5. Handle missing values appropriately based on business meaning
+6. Standardise categorical values (for example: gender, marital status, churn labels)
+7. Check categorical fields for consistency and unexpected values
+8. Perform feature engineering for analysis (such as recency, frequency, and derived indicators)
+9. Save the fully cleaned dataset into new Excel output files 
 ## Files in This Repository
 - [ Customer_churn_data.ipynb]( Customer_churn_data.ipynb)
 - [Customer_Churn_Data_Large-2.xlsx]( Customer_Churn_Data_Large-2.xlsx)
