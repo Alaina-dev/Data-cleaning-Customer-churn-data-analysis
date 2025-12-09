@@ -24,18 +24,16 @@ Check categorical fields for consistency and unexpected values
 Perform feature engineering for analysis (such as recency, frequency, and derived indicators)
 Save the fully cleaned dataset into new Excel output files 
 ## Files in This Repository
-[ Customer_churn_data.ipynb]( Customer_churn_data.ipynb)
-[Customer_Churn_Data_Large-2.xlsx]( Customer_Churn_Data_Large-2.xlsx)
-[Customer_churn_clean_data.xlsx](Customer_churn_clean_data.xlsx)
-
-
+- [ Customer_churn_data.ipynb]( Customer_churn_data.ipynb)
+- [Customer_Churn_Data_Large-2.xlsx]( Customer_Churn_Data_Large-2.xlsx)
+- [Customer_churn_clean_data.xlsx](Customer_churn_clean_data.xlsx)
 ## Output Files
 The final output of this project is a cleaned Excel dataset stored in Google Drive. This dataset is ready for use in exploratory data analysis, customer behavior analysis, churn prediction modeling, and business intelligence dashboards.
 ## How to Run This Project
 To run this project, you need both the raw Excel dataset and the pandas cleaning notebook.
 First, download or clone this GitHub repository. It contains:
-[Customer_churn_data.ipynb](Customer_churn_data.ipynb)
-]Customer_Churn_Data_Large-2.xlsx](Customer_Churn_Data_Large-2.xlsx)
+- [Customer_churn_data.ipynb](Customer_churn_data.ipynb)
+- [Customer_Churn_Data_Large-2.xlsx]( Customer_Churn_Data_Large-2.xlsx)
 Next, upload the raw Excel dataset to your Google Drive, or directly into Google Colab. If using Google Drive, mount it using:
 `from google.colab import drive
 drive.mount("/content/drive")`
