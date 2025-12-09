@@ -1,10 +1,12 @@
 # Data-cleaning-Customer-churn-data-analysis
 This project focuses on cleaning and preparing a customer churn dataset using Python and the pandas library in Google Colab. The aim is to convert raw, unstructured data into a clean, reliable dataset ready for analysis, visualization, and predictive modeling.
+
 The project reflects a real-world data cleaning workflow commonly used by data analysts before performing churn analysis, dashboard reporting, and machine learning tasks.
 ## Tools and Technologies Used
 This project was completed entirely in Google Colab using Python and the pandas library. The openpyxl engine was used for handling Excel files. Google Drive was used for file storage and exporting cleaned datasets.
 ## Dataset Overview
 The dataset used in this project is from the Lloyds Bank Virtual Experience programme on the Forage platform. It simulates a real-world customer churn business scenario.
+
 The dataset consists of multiple Excel worksheets representing different aspects of customer behavior, including:
 customer_demographics
 customer_service
@@ -39,6 +41,7 @@ Next, upload the raw Excel dataset to your Google Drive, or directly into Google
 drive.mount("/content/drive")`
 Update the file path in the notebook to match your Drive location:
 `file_path = "/content/drive/MyDrive/Customer_Churn_Data_Large-2.xlsx"`
+
 Run the notebook cells in order to execute the full data cleaning process. The cleaned Excel files will be automatically saved to your Google Drive.
 If you prefer not to use Google Drive, you can upload the raw Excel file directly into Colab and update the file path accordingly. After the script finishes, you can download the cleaned Excel file directly to your computer.
 ## Key Learning Outcomes
