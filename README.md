@@ -7,7 +7,7 @@ This project was completed entirely in Google Colab using Python and the pandas 
 The dataset consists of multiple Excel worksheets representing different aspects of customer behavior, including customer demographics, service usage, transaction history, online activity, and churn status. Each worksheet was cleaned separately to ensure accuracy, consistency, and data integrity before further analysis.
 # Data Cleaning Process
 To run this project, you need both the raw dataset and the pandas cleaning notebook.
-First, download or clone this repository from GitHub. The repository contains the pandas cleaning notebook used in this project.[Customer_churn_data.ipynb]()
+First, download or clone this repository from GitHub. The repository contains the pandas cleaning notebook used in this project.[Customer_churn_data.ipynb](Customer_churn_data.ipynb)
 # Output Files
 The final output of this project is a cleaned Excel dataset stored in Google Drive. This dataset is ready for use in exploratory data analysis, customer behavior analysis, churn prediction modeling, and business intelligence dashboards.
 # How to Run This Project
