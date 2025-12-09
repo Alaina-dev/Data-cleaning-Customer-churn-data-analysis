@@ -7,7 +7,14 @@ This project was completed entirely in Google Colab using Python and the pandas 
 The dataset consists of multiple Excel worksheets representing different aspects of customer behavior, including customer demographics, service usage, transaction history, online activity, and churn status. Each worksheet was cleaned separately to ensure accuracy, consistency, and data integrity before further analysis.
 # Data Cleaning Process
 To run this project, you need both the raw dataset and the pandas cleaning notebook.
-First, download or clone this repository from GitHub. The repository contains the pandas cleaning notebook used in this project.[Customer_churn_data.ipynb](Customer_churn_data.ipynb) and the raw dataset [Customer_Churn_Data_Large-2.xlsx](Customer_Churn_Data_Large-2.xlsx)
+First, download or clone this repository from GitHub. The repository contains the pandas cleaning notebook used in this project.[Customer_churn_data.ipynb](Customer_churn_data.ipynb) and the raw dataset [Customer_Churn_Data_Large-2.xlsx](Customer_Churn_Data_Large-2.xlsx).
+Next, upload the raw Excel dataset to your Google Drive, or directly into Google Colab. If the raw dataset is stored in Google Drive, mount your Drive in Colab using:
+`from google.colab import drive
+drive.mount("/content/drive")`
+Update the file path in the notebook to match the location of your Excel file, for example:
+`file_path = "/content/drive/MyDrive/Customer_Churn_Data.xlsx"`
+Run the notebook cells in order to execute the full data cleaning process. The cleaned Excel files will be automatically saved to your Google Drive.
+If you prefer not to use Google Drive, you can upload the raw Excel file directly to Colab and update the file path accordingly. After the script finishes, you can download the cleaned Excel file directly to your computer from Colab.
 # Output Files
 The final output of this project is a cleaned Excel dataset stored in Google Drive. This dataset is ready for use in exploratory data analysis, customer behavior analysis, churn prediction modeling, and business intelligence dashboards.
 # How to Run This Project
