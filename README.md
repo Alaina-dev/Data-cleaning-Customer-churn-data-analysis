@@ -46,6 +46,6 @@ Run the notebook cells in order to execute the full data cleaning process. The c
 If you prefer not to use Google Drive, you can upload the raw Excel file directly into Colab and update the file path accordingly. After the script finishes, you can download the cleaned Excel file directly to your computer.
 ## Key Learning Outcomes
 This project strengthened practical skills in real-world data cleaning, working with multi-sheet Excel files using pandas, handling missing values and duplicates, standardizing categorical variables, converting date formats, and managing files efficiently in Google Colab.
-# Author
+## Author
 This project was completed as part of my data analytics learning journey, with a focus on building strong data preparation skills for real business applications.
 
